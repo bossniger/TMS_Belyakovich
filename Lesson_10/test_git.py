@@ -5,3 +5,5 @@ class Hello:
 
 hello = Hello()
 hello.say_hello()
+
+print("heello")

@@ -1,9 +1,8 @@
 class Hello:
     def say_hello(self):
-        print("heeeelllooooo")
+        print('hello github!')
         return
+
 
 hello = Hello()
 hello.say_hello()
-
-print("heello")

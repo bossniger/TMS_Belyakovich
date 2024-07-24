@@ -1,16 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <title>Title</title>
 </head>
 <body>
-<a href="http://127.0.0.1:5000/new_products"><button>Продукты</button></a>
+<a href="http://127.0.0.1:5000/new_product"><button>Добавить новый продукт</button></a>
 {%for product in products%}
 <ul>
-    <li>Имя: {{product.name}}</li>
-    <li>возраст: {{product.age}}</li>
-    <li>емэйл: {{product.email}}</li>
+    <li>Название: {{product.name}}</li>
+    <li>Белки: {{product.protein}}</li>
+    <li>Жиры: {{product.fats}}</li>
+    <li>Углеводы: {{product.carbohydrates}}</li>
+    <li>Калорийность: {{product.calories}} ккал</li>
 </ul>
 {% endfor %}
 </body>

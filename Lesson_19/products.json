@@ -1,0 +1,16 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "egor",
+            "age": 1,
+            "email": "e@gmail.com"
+        },
+        {
+            "id": 2,
+            "name": "igor",
+            "age": 3,
+            "email": "3@gmail.com"
+        }
+    ]
+}

@@ -6,6 +6,7 @@
 </head>
 <body>
 <a href="http://127.0.0.1:5000/new_product"><button>Добавить новый продукт</button></a>
+<a href="http://127.0.0.1:5000/myfood"><button>Мое питание</button></a>
 {%for product in products%}
 <ul>
     <li>Название: {{product.name}}</li>
@@ -14,6 +15,7 @@
     <li>Углеводы: {{product.carbohydrates}}</li>
     <li>Калорийность: {{product.calories}} ккал</li>
 </ul>
+<a href="{{ url_for('update_ate_products', product_id=product['id'])}}"><button>Съесть</button></a>
 {% endfor %}
 </body>
 </html>

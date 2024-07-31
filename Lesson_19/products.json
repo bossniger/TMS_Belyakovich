@@ -1,0 +1,28 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "hleb",
+            "protein": 3.6,
+            "fats": 0.1,
+            "carbohydrates": 5.1,
+            "calories": 36
+        },
+        {
+            "id": 2,
+            "name": "smeatana",
+            "protein": 27.5,
+            "fats": 28.3,
+            "carbohydrates": 2.2,
+            "calories": 382
+        },
+        {
+            "id": 3,
+            "name": "jopa konya",
+            "protein": 20.6,
+            "fats": 3.5,
+            "carbohydrates": 0.6,
+            "calories": 123.0
+        }
+    ]
+}

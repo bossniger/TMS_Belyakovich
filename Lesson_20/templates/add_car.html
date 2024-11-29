@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Add Car</title>
+</head>
+<body>
+    <h1>Add a New Car</h1>
+    <form method="POST">
+        <label>Brand:</label>
+        <input type="text" name="brand" required><br>
+        <label>Model:</label>
+        <input type="text" name="model" required><br>
+        <label>Serial Number:</label>
+        <input type="text" name="serial_number" required><br>
+        <button type="submit">Add Car</button>
+    </form>
+
+    <a href="{{ url_for('main_page') }}">Back to Cars</a>
+</body>
+</html>

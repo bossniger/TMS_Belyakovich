@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cars Inventory</title>
+</head>
+<body>
+    <h1>Welcome to Cars Inventory</h1>
+    <p>Total number of cars in the inventory: {{ cars|length }}</p>
+    <ul>
+        {% for car in cars %}
+            <li>{{ car.brand }} {{ car.model }}</li>
+        {% endfor %}
+    </ul>
+
+    <a href="{{ url_for('add_car') }}">Add a new car</a>
+</body>
+</html>

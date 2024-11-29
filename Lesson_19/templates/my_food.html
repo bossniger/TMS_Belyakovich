@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<a href="http://127.0.0.1:5000/products"><button>Продукты</button></a>
+<div>Вы набрали {{calories_sum}} из 2200</div>
+
+{%for ate_product in ate_products%}
+<ul>
+    <li>Название: {{ate_product.name}}</li>
+    <li>Белки: {{ate_product.protein}}</li>
+    <li>Жиры: {{ate_product.fats}}</li>
+    <li>Углеводы: {{ate_product.carbohydrates}}</li>
+    <li>Калорийность: {{ate_product.calories}} ккал</li>
+</ul>
+{% endfor %}
+</body>
+</html>
